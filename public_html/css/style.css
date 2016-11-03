@@ -19,39 +19,40 @@ article {
 
 article header h1 {
     font-size: 50px;
-    text-transform: capitalize; /* as primeiras letras ficam maiúsculas */
+    text-transform: capitalize;
 }
 
 article .conteudo {
     columns: 3;
-    column-gap: 40px; /* espaço entre as colunas */
+    column-gap: 40px;
     text-align: justify;
 }
 
 article .conteudo p {
-	margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
-/* primeira letra do primeiro <p> */
 article .conteudo p:first-child:first-letter {
     font-size: 50px;
     font-weight: bold;
 }
 
-@media (max-width: 767px) {
-    article {
-        width: 90%;
-    }
-    
+@media(max-width: 767px) {
     article header h1 {
         font-size: 28px;
     }
-    
     article .conteudo {
         columns: 1;
     }
-    
     article .conteudo p:first-child:first-letter {
         font-size: 28px;
+    }
+}
+@media(max-width: 900px) {
+    article {
+        width: 90%;
+    }
+    article .conteudo {
+        column-gap: 20px;
     }
 }
