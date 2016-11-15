@@ -1,17 +1,49 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 29/10/2016, 13:07:06
     Author     : Rômulo Göelzer Portolann <romulogoelzer@gmail.com>
 */
 .logotipo {
-    padding: 10px;
-    margin-right: 20px;
+  padding: 8px;
+  margin-right: 20px;
 }
 
 .logotipo img {
-    height: 30px;
+  height: 34px;
+}
+
+.perfil {
+  padding: 10px;
+  width: 300px;
+}
+
+.perfil li:first-child {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+@media (max-width: 767px) {
+  .perfil {
+    color: #fff;
+  }
+
+  .perfil a {
+    color: #9d9d9d;
+    display: block; /* para pegar toda largura */
+    padding: 5px 0;
+  }
+
+  .perfil a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.cabecalho h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.busca {
+  margin-top: 12px;
 }

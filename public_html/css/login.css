@@ -1,32 +1,27 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 07/11/2016, 00:33:40
     Author     : Rômulo Göelzer Portolann <romulogoelzer@gmail.com>
 */
 body {
-    min-height: 100vh; /* viewport-height */
-    background-color: #ccc;
-    background-image: url('https://unsplash.it/g/1920/1080?image=0');
+  min-height: 100vh; /* viewport-height */
+  background-color: #ccc;
+  background-image: url('https://unsplash.it/g/1920/1080?image=0');
 }
 
 .login-form {
-    margin-top: 50vh;
-    padding: 20px 30px;
-    background-color: rgba(0, 0, 0, .9);
-    color: #fff;
-    
-    transform: translateY(-50%); /* traduz a posição vertical do elemento para a metade do tamanho que ele tiver */
+  margin-top: 50vh;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, .9);
+  color: #fff;
+
+  transform: translateY(-50%); /* traduz a posição vertical do elemento para a metade do tamanho que ele tiver */
 }
 
 .login-form h1 {
-    margin: 0 0 5px;
+  margin: 0 0 5px;
 }
 
 .login-form h2 {
-    margin: 0 0 30px;
-    font-size: 1em;
+  margin: 0 0 30px;
+  font-size: 1em;
 }
