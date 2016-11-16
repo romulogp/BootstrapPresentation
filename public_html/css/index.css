@@ -21,6 +21,22 @@
   font-weight: bold;
   margin-bottom: 1px;
 }
+.cabecalho h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.busca {
+  margin-top: 12px;
+}
+
+.tabela-dados {
+  margin-top: 30px;
+}
+
+.paginacao .pagination {
+    margin: 0;
+}
 
 @media (max-width: 767px) {
   .perfil {
@@ -37,17 +53,13 @@
     text-decoration: none;
     color: #fff;
   }
-}
-
-.cabecalho h1 {
-  margin: 0;
-  font-size: 3em;
-}
-
-.busca {
-  margin-top: 12px;
-}
-
-.tabela-dados {
-  margin-top: 30px;
+  
+  .paginacao {
+      text-align: center;
+  }
+  
+  .paginacao .pagination {
+      margin-top: 20px;
+  }
+  
 }
