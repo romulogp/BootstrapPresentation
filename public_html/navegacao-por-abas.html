@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Navegação por Abas</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Navegação por Abas</h1>
+      
+      <div class="nevegacao-abas">
+        <h2 class="page-header">nav-tabs</h2>
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+          <li><a href="#perfil" data-toggle="tab">Perfil</a></li>
+          <li><a href="#mensagem" data-toggle="tab">Mensagem</a></li>
+        </ul>
+        
+        <div class="tab-content">
+          <div class="tab-pane fade in active" id="home">
+            Conteúdo da aba "Home"
+          </div>
+        
+          <div class="tab-pane fade" id="perfil">
+            Conteúdo da aba "Perfil"
+          </div>
+        
+          <div class="tab-pane fade" id="mensagem">
+            Conteúdo da aba "Mensagem"
+          </div>
+        </div>
+      </div>
+      
+      <div class="navegacao-pills">
+        <h2 class="page-header">nav-pills</h2>
+        <ul class="nav nav-pills">
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="">Perfil</a></li>
+          <li><a href="">Mensagem</a></li>
+        </ul>
+      </div>
+      
+      <div class="navegacao-stack">
+        <h2 class="page-header">nav-stacked</h2>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="">Stack 1</a></li>
+          <li><a href="">Stack 2</a></li>
+          <li><a href="">Stack 3</a></li>
+        </ul>
+      </div>
+      
+      <div class="navegacao-justificada">
+        <h2 class="page-header">nav-justified</h2>
+        <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="">Justified 1</a></li>
+          <li><a href="">Justified 2</a></li>
+          <li><a href="">Justified 3</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
