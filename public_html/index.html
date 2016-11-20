@@ -179,6 +179,9 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
+            <button class="close" data-dismiss="modal" >
+              <span>&times;</span>
+            </button>
             <h3 class="modal-title">Nova Ordem de Serviço</h3>
           </div>
           <form>
@@ -190,8 +193,8 @@
                 </div>
               </div>
               <div class="row">
-                <div class="form-group col-sm-5">
-                  <label for="cliente">Cliente</label>
+                <div class="form-group col-sm-5 has-success">
+                  <label class="control-label" for="cliente">Cliente</label>
                   <select id="cliente" class="form-control">
                     <option value="">Selecione...</option>
                     <option value="1">Frodo Bolseiro</option>
@@ -199,8 +202,8 @@
                     <option value="3">Sauron de Mordor</option>
                   </select>
                 </div>
-                <div class="form-group col-sm-7">
-                  <label for="servico">Serviços</label>
+                <div class="form-group col-sm-7 has-error">
+                  <label class="control-label" for="servico">Serviços</label>
                   <select id="servico" class="form-control">
                     <option value="">Selecione...</option>
                     <option value="1">Ajuste de Data/Hora</option>
@@ -211,13 +214,13 @@
               </div>
                <div class="row">
                  <div class="form-group col-xs-12">
-                    <label for="obs">Observação</label>
-                    <textarea id="obs" class="form-control" rows="3"></textarea>
+                    <label class="control-label" for="obs">Observação</label>
+                    <textarea id="obs" class="form-control has-warning" rows="3"></textarea>
                   </div>
                </div>
               <div class="row">
-                <div class="form-group col-sm-4">
-                  <label for="valor">Valor</label>
+                <div class="form-group col-sm-4 has-success">
+                  <label class="control-label" for="valor">Valor</label>
                   <div class="input-group">
                     <div class="input-group-addon">R$</div>
                     <input type="text" name="valor" id="valor" class="form-control">
