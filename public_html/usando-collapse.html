@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Usando o Collapse</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <h1>Usando o Collapse</h1>
+      
+      <a href="#meu-collapse" data-toggle="collapse">Abrir / Fechar</a>
+      <p class="collapse" id="meu-collapse">
+        Meu collapse que abre e fecha
+      </p>
+      
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a href="#p-collapse" data-toggle="collapse">Abrir / Fechar</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="p-collapse">
+          <div class="panel-body">
+            <p>Meu collapse que abre e fecha</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- accordion -->
+      <h2 class="page-header">Accordion</h2>
+      <div class="panel-group" id="meu-accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a href="#PainelUm" data-toggle="collapse" data-parent="#meu-accordion">Primeiro Painel</a>
+            </h4>
+          </div>
+          <div class="panel-collapse collapse in" id="PainelUm">
+            <div class="panel-body">
+              <p>
+                Conteúdo do primeiro painel.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a href="#PainelDois" data-toggle="collapse" data-parent="#meu-accordion">Segundo Painel</a>
+            </h4>
+          </div>
+          <div class="panel-collapse collapse" id="PainelDois">
+            <div class="panel-body">
+              <p>
+                Conteúdo do segundo painel.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a href="#PainelTres" data-toggle="collapse" data-parent="#meu-accordion">Terceiro Painel</a>
+            </h4>
+          </div>
+          <div class="panel-collapse collapse" id="PainelTres">
+            <div class="panel-body">
+              <p>
+                Conteúdo do terceiro painel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
